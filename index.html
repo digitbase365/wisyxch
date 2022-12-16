@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisymore Exchange | Home</title>
+  <link rel="stylesheet" href="./css/bit.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favic 1.png"> 
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Changa:wght@500;700&family=Inria+Sans:wght@300;700&family=Source+Sans+Pro:wght@200;300;400;700&display=swap" rel="stylesheet">
+  <!--End of Google Fonts -->
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="./assets/fontawesome-free-5.15.1-web/css/all.css">
+  <!-- End of FontAwesome Icons -->
+
+
+</head>
+<body>
+  <main>
+  <!-- Customized Header -->
+		<header id="header">
+      <div class="container"> 
+        <a href="index.html"> 
+            <div class="logo">
+							<img src="./imgz/logo/wlogo.png" alt="">
+						</div>  
+        </a> 
+        <div class="menu hide-desktop hide">
+          <div class="burger" ></div>
+        </div>
+        <nav> 
+          <a href="index.html" class="hide">Home</a>
+          <a href="#services" class="hide">Services</a>
+          <a href="rates.html" class="hide">Rates</a>
+          <a href="contact.html" class="hide">Contact</a> 
+        </nav> 
+        <a href="./apply-now/index.html" class="act">Trade Now</a> 
+      </div>
+    </header> 
+		<!-- End of Customized Header -->
+
+    <section id="hero">
+        <div class="hero container">
+          <div class="pitchBx">
+            <div class="pitch">
+              <h1>Trusted Platform <br> for <span class="flag"> trading <span class="txt-type" data-wait="3000" data-words='["Crypto", "GiftCards", "NFTs"]'></span> </span></h1>
+            </div>
+            <p>
+              Explore the Crypto World. Buy and sell bitcoin for fiat (or other cryptocurrencies) privately and securely using Wisymore's peer-to-peer exchange network. No registration required. <br>
+               <!-- Wisymore Exchange is active and buying all your crypto assets as well as all your giftcards at the best rates. Trade now to enjoy the fast payment service. -->
+            </p>
+            <a href="#0" class="cta">Trade Now</a>
+            <a href="#0" class="cta unbg">Start Earning</a>
+          </div>
+          <div class="imgBx">
+            <img src="./imgz/hero-img.png" alt="" width="1000px">
+            <img class="coinx btc" src="./imgz/bitcoix.png" alt="">
+            <img class="coinx lit" src="./imgz/litcx.png" alt="">
+            <img class="coinx xco" src="./imgz/xcoin.png" alt="">
+            <!-- <img class="pattern" src="./imgz/pokdot.png" alt=""> -->
+          </div>
+        </div>
+    </section> 
+    <section id="futures">
+      <div class="futures container">
+        <h3 class="subheading fff">Buy and sell crypto in minutes</h3>
+        <div class="tradeBx">
+          
+          <!-- <div class="card"><form action=""></form></div> -->
+
+          <div class="card">
+            <script defer type="text/javascript">
+              baseUrl = "https://widgets.cryptocompare.com/";
+              var scripts = document.getElementsByTagName("script");
+              var embedder = scripts[ scripts.length - 1 ];
+              (function (){
+              var appName = encodeURIComponent(window.location.hostname);
+              if(appName==""){appName="local";}
+              var s = document.createElement("script");
+              s.type = "text/javascript";
+              s.async = true;
+              var theUrl = baseUrl+'serve/v1/coin/chart?fsym=BTC&tsym=USD';
+              s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+              embedder.parentNode.appendChild(s);
+              })();
+              </script> 
+          </div>
+          <div class="card">
+            <script defer type="text/javascript">
+              baseUrl = "https://widgets.cryptocompare.com/";
+              var scripts = document.getElementsByTagName("script");
+              var embedder = scripts[ scripts.length - 1 ];
+              var cccTheme = {"General":{"borderColor":"#fff","borderRadius":"5px"},"Chart":{"borderColor":"#0eb085"}};
+              (function (){
+              var appName = encodeURIComponent(window.location.hostname);
+              if(appName==""){appName="local";}
+              var s = document.createElement("script");
+              s.type = "text/javascript";
+              s.async = true;
+              var theUrl = baseUrl+'serve/v1/coin/chart?fsym=ETH&tsym=USD';
+              s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+              embedder.parentNode.appendChild(s);
+              })();
+              </script> 
+          </div>
+          <div class="card">
+            <script defer type="text/javascript">
+              baseUrl = "https://widgets.cryptocompare.com/";
+              var scripts = document.getElementsByTagName("script");
+              var embedder = scripts[ scripts.length - 1 ];
+              var cccTheme = {"General":{"borderColor":"#fff","borderRadius":"5px"},"Chart":{"borderColor":"#0eb085"}};
+              (function (){
+              var appName = encodeURIComponent(window.location.hostname);
+              if(appName==""){appName="local";}
+              var s = document.createElement("script");
+              s.type = "text/javascript";
+              s.async = true;
+              var theUrl = baseUrl+'serve/v1/coin/chart?fsym=USDT&tsym=USD';
+              s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+              embedder.parentNode.appendChild(s);
+              })();
+              </script>  
+          </div>
+          <div class="card">
+            <!-- <script type="text/javascript">
+              baseUrl = "https://widgets.cryptocompare.com/";
+              var scripts = document.getElementsByTagName("script");
+              var embedder = scripts[ scripts.length - 1 ];
+              var cccTheme = {"General":{"borderColor":"#fff","borderRadius":"5px"},"Chart":{"animation":true,"fillColor":"#dbf7f0","borderColor":"#0eb085"}};
+              (function (){
+              var appName = encodeURIComponent(window.location.hostname);
+              if(appName==""){appName="local";}
+              var s = document.createElement("script");
+              s.type = "text/javascript";
+              s.async = true;
+              var theUrl = baseUrl+'serve/v1/coin/chart?fsym=XRP&tsym=USD';
+              s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+              embedder.parentNode.appendChild(s);
+              })();
+              </script>  -->
+              <script type="text/javascript">
+                baseUrl = "https://widgets.cryptocompare.com/";
+                var scripts = document.getElementsByTagName("script");
+                var embedder = scripts[ scripts.length - 1 ];
+                var cccTheme = {"General":{"borderColor":"#fff","borderRadius":"5px"},"Chart":{"animation":true,"fillColor":"#dbf7f0","borderColor":"#0eb085"}};
+                (function (){
+                var appName = encodeURIComponent(window.location.hostname);
+                if(appName==""){appName="local";}
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.async = true;
+                var theUrl = baseUrl+'serve/v1/coin/chart?fsym=DOGE&tsym=USD';
+                s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                embedder.parentNode.appendChild(s);
+                })();
+                </script>
+                
+          </div> 
+
+        </div>
+      </div>
+      <div class="partners">
+        <img src="./imgz/partners.svg" alt="">
+      </div>
+    </section>
+    <section id="services">
+      <div class="services container">
+        <div class="top">
+          <h2 class="subheading centered">Decentralized Services</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur obcaecati non dignissimos natus pariatur molestias nulla mollitia facilis accusantium labore. Aut eaque distinctio fuga natus!</p>
+        </div>
+        <div class="bottom">
+          <div class="service-box flx">
+            <div class="imgBx">
+              <img src="./imgz/service1.png" alt="">
+              <img src="./imgz/service1.1.png" alt="" class="aux-img">
+            </div>
+            <div class="contentBx">
+              <h3>Market Cryptocurrencies</h3>
+              <p>Dictum fusce ut placerat orci nulla pellentesque nulla facilisi nullam vehicula ipsum eu volutpat odio facilisis.</p>
+              <h5>Fast and secure transactions<span><img src="./imgz/icons/chkmk-30.png" alt=""></span></h5>
+              <h5>Lowest fees in the market<span><img src="./imgz/icons/chkmk-30.png" alt=""></span></h5>
+              <h5>256-bit secure encryption<span><img src="./imgz/icons/chkmk-30.png" alt=""></span></h5>
+            </div>
+          </div>
+          <div class="service-box reverse flx">
+            <div class="imgBx">
+              <img src="./imgz/gcf1.png" alt="">
+              <img src="./imgz/aux001.png" alt="" class="aux-img">
+            </div>
+            <div class="contentBx">
+              <h3>Sell GiftCards</h3>
+              <p>Dictum fusce ut placerat orci nulla pellentesque nulla facilisi nullam vehicula ipsum eu volutpat odio facilisis.</p>
+              <h5>iTunes GiftCards<span><img src="./imgz/icons/chkmk-30.png" alt=""></span></h5>
+              <h5>Amazon GiftCards<span><img src="./imgz/icons/chkmk-30.png" alt=""></span></h5>
+              <h5>Walmart GiftCards<span><img src="./imgz/icons/chkmk-30.png" alt=""></span></h5>
+            </div>
+          </div>
+          <div class="service-box flx">
+            <div class="imgBx">
+              <img src="./imgz/gcf2.png" alt="">
+              <img src="./imgz/aux002.png" alt="" class="aux-img">
+            </div>
+            <div class="contentBx">
+              <h3>Airtime & Bills Transactions</h3>
+              <p>Dictum fusce ut placerat orci nulla pellentesque nulla facilisi nullam vehicula ipsum eu volutpat odio facilisis.</p>
+              <h5>Airtime and Data Bundles<span><img src="./imgz/icons/chkmk-30.png" alt=""></span></h5>
+              <h5>Electricity and Energy Bills <span><img src="./imgz/icons/chkmk-30.png" alt=""></span></h5>
+              <h5>Cable TV and Subscriptions<span><img src="./imgz/icons/chkmk-30.png" alt=""></span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How it Works -->
+    <section id="how">
+      <div class="how container">
+        <div class="top">
+          <h1 class="subheading">More than a typical Crypto Exchange</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rem laudantium dolorem totam! Velit dolorum assumenda, natus nemo optio similique doloremque dolores possimus tempora, quidem cumque delectus qui ratione fugit recusandae at adipisci?</p>
+        </div>
+        <div class="bottom"> 
+          <a href="#0" class="play-btn">
+            <i class="fa fa-play"></i>
+            <span class="ripple"></span>
+          </a>
+          <img src="./imgz/vidimg.jpg" alt="">
+
+        </div>
+      </div>
+    </section>
+    <!-- End of How it Works -->
+
+    <!--Affiliate Section  -->
+    <section id="refer">
+      <div class="refer flx container">
+        <div class="imgBx">
+         <img src="./imgz/AffRev.png" alt="" class="img0">
+         <img src="./imgz/refebrnd.png" alt="" class="imgb1">
+         <img src="./imgz/Affreferal.png" alt="" class="imgb2">
+        </div>
+        <div class="contentBx">
+          <h1 class="subheading">Earn as a Partner</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam aperiam doloremque, reiciendis at est nam ab magni expedita officiis asperiores beatae eveniet dolorum! Laudantium quo nobis aspernatur eligendi, pariatur soluta perspiciatis, rem eius accusantium quam earum repellat laborum corrupti eaque neque voluptates hic aliquid optio, tempore dolor. Ipsa, rem magni?
+          </p>
+
+        </div>
+      </div>
+    </section>
+    <!--End of Affiliate Section  -->
+    <section id="press">
+      <div class="press container">
+        <div class="top centered">
+          <!-- <span>PRESS & NEWS</span> -->
+          <h1 class="subheading">Wisymore in the Press and Media</h1>
+          <p>True to our corporate social responsibility, Wisymore has been trending in the media space across exclusive news platforms in the sub-region. Wisymore Exchange has been featured on these media firms.
+        </div>
+        <div class="bottom">
+          <div class="marquee">
+            <ul class="marquee-content">
+              <li class="emblem">
+                <img src="./imgz/marq/alexvent.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/fenbushi.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/ft.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/guardian.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/pint.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/telegr.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/theSun.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/yutube.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/twitch.png" alt="">
+              </li> 
+              <li class="emblem">
+                <img src="./imgz/marq/fenbushi.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/ft.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/guardian.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/pint.png" alt="">
+              </li>
+              <li class="emblem">
+                <img src="./imgz/marq/telegr.png" alt="">
+              </li> 
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="top flx container">
+        <div class="col1">
+          <img src="./imgz/logo/wlogof.png" alt="" class="flogo">
+          <div class="fbx">
+          <p>Wisymore Exchange is active and buying all your crypto assets as well a asll your giftcards at the best rates.</p>
+          <img src="./imgz/Trustpilot_logo 2.png" alt="assurance" class="assurance">
+          <img src="./imgz/bbb 2.png" alt="assurance" class="assurance">
+          </div>
+        </div>
+        <div class="col2">
+          <h4>Resources</h4>
+          <div class="fbx">
+          <a href="">Tokens</a> 
+          <a href="">Features</a> 
+          <a href="">Get commission</a> 
+          <a href="">Check current rates</a> 
+          </div>
+        </div>
+        <div class="col3">
+          <h4>Explore</h4>
+          <div class="fbx">
+            <a href="">FAQs</a> 
+            <a href="">Terms</a> 
+            <a href="">About Us</a> 
+            <a href="">Contact Us</a> 
+          </div>
+        </div>
+        <div class="col4">
+          <h4>Updates</h4>
+          <div class="fbx">
+            <p>Subcribe for realtime crypto analysis and forecast.</p>
+          <form action="">
+            <div class="formBx">
+            <input type="text" name="Email" placeholder="Enter Email ID">
+            <input type="submit" value="Send">
+            </div>
+          </form>
+          <div class="sci">
+            <a href="" class="fb"><i class="fab fa-facebook"></i></a>
+            <a href="" class="tw"><i class="fab fa-telegram"></i></a>
+            <a href="" class="ig"><i class="fab fa-discord"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyr container">
+        <p>
+          Copyright &copy; Wisymore 2020 - 2022 | All Rights Reserved | <a href="#0">Privacy Policy</a>
+        </p>
+      </div>
+    </footer>
+
+  </main>  
+  
+  <script src="bit.js"></script>
+</body>
+</html>
