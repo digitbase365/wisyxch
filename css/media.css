@@ -32,7 +32,7 @@
    
   header .container nav{
     display: none;
-  }
+  } 
   header .menu.hide-desktop.hide{
     display: none;
   }
@@ -46,6 +46,17 @@
   .container .hide-desktop{
     display: flex;
   }  
+  header .act.hide{
+    display: none;
+  }
+  header a img{
+    margin-left: 10px;
+  }
+  header .hide-desktop img{
+    width: 24px;
+  }
+
+   
   .hide-desktop.cac{ 
     color: var(--bg-hero);
     color: #052F5F;
@@ -65,13 +76,14 @@
     width: 70px; 
     object-fit: contain;
   }
-  .scroll-up header .container .logo{ 
-    width: 125px;  
+  .scroll-up header .container .logo img{ 
+    width: 65px;  
   }  
   .scroll-up header .container{   
     align-items: center; 
     /* padding-left: 3%; */
     padding-bottom: 1%; 
+	  padding: 2px .5rem;  
   } 
   .scroll-up .hide-desktop.cac{
     margin-left: 3%;
@@ -256,15 +268,13 @@ section#futures{
 }
 .service-box.reverse .contentBx{
 	text-align: center;
-}
-.services .service-box h3{
-	font-size: 1.45rem; 
 } 
 .service-box .contentBx h5{  
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
   font-size: 1rem;
+  margin: 0;
 }
 .service-box.reverse .contentBx h5{  
   flex-direction: row-reverse;
@@ -287,6 +297,20 @@ section#futures{
 	margin-right: 15px;
 }
 /* END of SERVICES RULESET */
+
+/* HOW RULESET */
+.how .bottom{ 
+  min-height: 52vh;
+  border-radius: 15px;
+}
+.how .bottom img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+/* END of HOW RULESET */
 
 /* REFER RULESET */
 .refer{ 

@@ -154,6 +154,8 @@ nav a{
   font-family: 'Source Sans Pro', sans-serif;
   color: #7d828c; 
   color: #2D728F; 
+	display: flex;
+	align-items: flex-end;
 }
 nav a:hover{
   color: #042a3a; 
@@ -177,7 +179,7 @@ header .act{
   cursor: pointer;
   display: inline-block;
   font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
-  height: 40px;
+  /* height: 40px; */
   line-height: 32px;
   outline: 0;
   overflow: hidden; 
@@ -250,7 +252,7 @@ header .act{
 }
 .hero .pitch h1{
   color: #114B5F; 
-	font-size: clamp(1.75rem, 3.5vw, 5.2rem);
+	font-size: clamp(2.1rem, 3.5vw, 5.2rem);
 	font-weight: 600;
   line-height: 1.25;
 }  
@@ -470,7 +472,7 @@ section#futures{
 	margin: auto;
 }
 .how .bottom{ 
-	background: url(../imgz/vidimg.jpg) no-repeat center center / cover;
+	/* background: url(../imgz/vidimg.jpg) no-repeat center center / cover; */
 	position: relative;
 	border-radius: 30px;
 	overflow: hidden;
