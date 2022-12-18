@@ -293,15 +293,15 @@ will-change: transform;
 }
 
 .coinx.btc{
-	top: -7%;
-	left: 73%;
+	top: -3%;
+	right: 1%;
 }
 .coinx.lit{
 	top: 52%;
 	left: -5%;
 }
 .coinx.xco{
-	top: 42%;
+	top: 67%;
 	left: 90%;
 }
  
@@ -527,39 +527,32 @@ span.ripple{
 /* END of HOW IT WORKS RULESET */
 
 /* AFFILIATE RULESET */
+#refer{
+	background: url(../imgz/bg/coins.png) no-repeat center right / contain;
+	background-size: 33%; 
+}
 .refer{ 
 	position: relative;
 	margin: 175px auto; 
-	padding: 0 120px;
-	gap: 10em;
+	padding: 0 120px;  
 }
 .refer > div{
-	width: 100%;
+	width: 100%; 
 }
+
 .refer .imgBx{
-	width: 150%; 
+	width: 200%; 
 }
 .refer .imgBx img{
 	display: inline-block; 
 	border-radius: 20px;
-	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	/* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
-.refer .imgBx .imgb1, .refer .imgBx .imgb2{
-	position: absolute;
-	width: 20%;
-}
+ 
 .refer .imgBx .img0{
-	width: 100%;
+	width: 100%; 
 }
-.refer .imgBx .imgb1{
-	top: 70px;
-	left: -50px; 
-}
-.refer .imgBx .imgb2{
-	bottom: -85px;
-	right: 550px; 
-	width: 17%;
-}
+ 
 /* END of AFFILIATE RULESET */
 
 

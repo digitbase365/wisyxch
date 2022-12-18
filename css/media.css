@@ -227,7 +227,7 @@ section#futures{
 	position: relative;     
 	border-bottom: 0;
   padding-bottom: 50px; 
-	padding: 75px 0 150px; 
+	padding: 75px 0 275px; 
 
 } 
 .futures.container{
@@ -264,7 +264,7 @@ section#futures{
 }
 #futures img.partn{ 
   width: 160%;   
-	transform: translate(-19%, 30%);
+	transform: translate(-19%, 19%);
 }
 
 
@@ -275,6 +275,7 @@ section#futures{
 	padding: 0;
   margin: 0 auto;
 	max-width: 100%;
+  margin-top: -10%;
 }
 .services .top p{
   text-align: center;
@@ -342,8 +343,11 @@ section#futures{
 	flex-direction: column-reverse;
 	margin: auto; 
 	padding: 0;
-	gap: 10em;
+	gap: 2em;
   position: unset;
+}
+.refer .subheading{
+	text-align: center;
 }
 .refer .imgBx{
 	width: 100%; 
