@@ -365,18 +365,26 @@ will-change: transform;
 /* FEATURE RULESET */
 section#futures{
 	min-height: 100vh;
-	background: url(../imgz/bluebg.svg) no-repeat;
+	background: url(../imgz/bluebg.svg) no-repeat center bottom / cover;
 	background-size: cover; 
-	position: relative; 
+	position: relative;    
 	padding: 125px 0; 
 } 
 .futures.container{
 	margin-bottom: .55em;
 }
+.futures .subheading{
+	margin-top: 7rem;
+}
+.futures .subheading img{
+	width: 60px;
+}
+ 
 .futures .tradeBx{
 	display: grid; 
 	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 	gap: 1.5em; 
+	margin: 5rem 0 0;
 }
 .futures .tradeBx .card{ 
 	border-radius: 5px;
@@ -385,12 +393,16 @@ section#futures{
 	outline: 1px solid white;
 	outline-offset: 3px;
 }
+ 
+#futures img{     
+	transform: translateY(40%);
+}
 /* END of FEATURE RULESET */
 
 
 /* SERVICES RULESET */
 .services{ 
-	padding: 75px 0;
+	padding: 0 0 75px;
 	max-width: 75%;
 }
 .services .top{
@@ -660,7 +672,7 @@ footer .formBx{
 
 }
 .formBx input[type=text]{
-	width: 11.76rem; 
+	width: 11.75rem; 
 	padding: 2px 20px;
 	background-color: transparent;
 	border: 0;
