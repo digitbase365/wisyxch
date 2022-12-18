@@ -257,9 +257,14 @@ section#futures{
 .futures .tradeBx .ccc-widget span{ 
   display: block;
 } 
+#futures .partners{
+  position: absolute;
+  bottom: 10%;
+  overflow: hidden;
+}
 #futures img.partn{ 
-  width: 150%;   
-	transform: translate(-17%, 30%);
+  width: 160%;   
+	transform: translate(-19%, 30%);
 }
 
 
@@ -277,10 +282,14 @@ section#futures{
 .services .service-box{
   flex-direction: column;
   gap: 2.5em;
+  border-radius: 40px; 
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
 }
 .service-box .contentBx{
 	text-align: center;
 	width: 100%;
+  padding: 1px 20px 45px;
 }
 .service-box.reverse .contentBx{
 	text-align: center;
@@ -416,7 +425,7 @@ footer .top .col3{
 footer .copyr.container{ 
   width: 100%;
 }
-footer .copyr.container p{ 
+footer .copyr.container p, footer .copyr.container a{ 
  font-size: .79rem;
 }
  

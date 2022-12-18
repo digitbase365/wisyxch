@@ -412,24 +412,6 @@ section#futures{
 .services .bottom{
 	margin: 75px 0;
 } 
-.services .service-box h3{
-	font-size: 1.88rem;
-	font-weight: 400;
-} 
-.service-box .contentBx{
-	text-align: right;
-	width: 50%;
-}
- 
-.service-box.reverse .contentBx{
-	text-align: left;
-}
-.service-box .contentBx p{
-	margin: 25px 0;
-}
-.service-box .contentBx h5{
-	margin: 15px 0; 
-}
 .services .service-box{
 	overflow: hidden;
 	align-items: center;  
@@ -462,10 +444,26 @@ section#futures{
 	margin-top: 5px;
 	margin-left: 15px;
 }
+.services .service-box h3{
+	font-size: 1.88rem;
+	font-weight: 400;
+} 
+.service-box .contentBx{
+	text-align: right;
+	width: 50%;  
+} 
+.service-box.reverse .contentBx{
+	text-align: left;
+}
+.service-box .contentBx p{
+	margin: 25px 0;
+} 
 .service-box .contentBx h5{
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+	margin: 15px 0; 
+
 }
 .service-box.reverse .contentBx h5{  
 	flex-direction: row-reverse;
