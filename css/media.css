@@ -5,10 +5,18 @@
 
 @media screen and (max-width: 499px){
   /* GENERAL DECLARATIONS */ 
+  .container{
+    width: 95%; 
+    margin: 50px auto; 
+  }
   .subheading{ 
     font-size: 2rem; 
     line-height: 1.1;
     margin-bottom: 33px;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
   } 
   p{
 	font-size: 1rem; 
@@ -201,11 +209,11 @@
 	padding-top: 7.5vh; 
   flex-direction: column-reverse;
   align-items: center;  
-  gap: 0;  
+  gap: 2em;  
 }
 .hero .imgBx{  
 	width: 101%;
-	position: relative;
+	position: relative; 
 }
 .hero .cta, .hero .cta.unbg { 
   font-size: .95rem;
@@ -353,18 +361,8 @@ section#futures{
 	width: 100%; 
   position: relative;
 }
-.refer .imgBx .imgb1, .refer .imgBx .imgb2{ 
-	width: 50%;
-}
-.refer .imgBx .imgb1{
-	top: -22%;
-	left: -25px; 
-}
-.refer .imgBx .imgb2{
-	bottom: -50px;
-	right: -20px;  
-  width: 45%;
-}
+ 
+ 
 /* END of REFER RULESET */
 
 /* PRESS RULESET */
@@ -435,9 +433,52 @@ footer .copyr.container p, footer .copyr.container a{
  
 /* END of FOOTER RULESET */
 
+
+/* CONTACT PAGE RULESTE */
+section.banner{ 
+  padding: 20% 5% 10%;  
+  background: url(../imgz/innerbanner.png) no-repeat top right / cover; 
+}
+ 
+section.reach{
+  flex-direction: column;
+  gap: 5rem; 
+  position: relative;
+  margin: 70px auto 20px;
+  overflow: hidden;
+}
+section.reach .contentBx{
+  padding: 2.3em 2.2em;
+  padding: 0;
+}
+section.reach .contentBx .conta{ 
+  flex-direction: column;
+  margin: 15% 0;
+}
+section.reach .contentBx .conta.flx{ 
+  justify-content: space-between; 
+  margin: 7% 0;
+}
+section.reach .contentBx .conta .item{  
+  margin: 4% 0;
+}
+
+.form{
+  padding: 0; 
+}
+.form form{
+  padding: 4em .85em;
+}
+.reach .ball.blue{
+  right: -10%;  
+  top: 70%; 
+}
+.reach .ball.yellow{
+  left: -10%;
+  bottom: 6%;
+}
+/* END of CONTACT PAGE RULESTE */
+
 } 
 
 
-
-
- 

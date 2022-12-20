@@ -46,10 +46,7 @@ section.reach > div{
 section.reach .contentBx{
   padding: 2.3em 2.2em
 }
-section.reach .contentBx .conta{ 
-  justify-content: space-between; 
-  margin: 15% 0;
-}
+
 .conta span i{
   margin-right: 7px;
   color: #4455ff;
