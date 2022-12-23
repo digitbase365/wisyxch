@@ -6,7 +6,7 @@
 @media screen and (max-width: 499px){
   /* GENERAL DECLARATIONS */ 
   .container{
-    width: 95%; 
+    width: 92%;   
     margin: 50px auto; 
   }
   .subheading{ 
@@ -211,9 +211,24 @@
   align-items: center;  
   gap: 2em;  
 }
-.hero .imgBx{  
-	width: 101%;
+.hero.container{
+  width: 100%;
+}
+.hero .pitchBx{
+  padding: 0 .9rem;
+}
+#hero .hero .imgBx{  
+	width: 100%;
 	position: relative; 
+  overflow: hidden;
+} 
+.coinx.lit{
+	top: 52%;
+	left: -3%;
+}
+.coinx.xco{
+	top: 72%;
+	left: 82%;
 }
 .hero .cta, .hero .cta.unbg { 
   font-size: .95rem;
@@ -444,12 +459,11 @@ section.reach{
   flex-direction: column;
   gap: 5rem; 
   position: relative;
-  margin: 70px auto 20px;
+  margin: 70px auto 20px; 
   overflow: hidden;
 }
-section.reach .contentBx{
-  padding: 2.3em 2.2em;
-  padding: 0;
+section.reach .contentBx{ 
+  padding: 0 1rem;
 }
 section.reach .contentBx .conta{ 
   flex-direction: column;
