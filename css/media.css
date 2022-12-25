@@ -35,7 +35,8 @@
     align-items: center; 
     justify-content: space-between; 
     height: 100%;
-    padding: 5px;
+    padding: 0 5px;
+    padding-left: 0;
   } 
    
   header .container nav{
@@ -58,7 +59,7 @@
     display: none;
   }
   header a img{
-    margin-left: 10px;
+    margin-left: 5px;
   }
   header .hide-desktop img{
     width: 24px;
@@ -81,7 +82,7 @@
     align-items: center;
   }
   header .container .logo img{
-    width: 70px; 
+    width: 140px; 
     object-fit: contain;
   }
   .scroll-up header .container .logo img{ 

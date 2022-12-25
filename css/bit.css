@@ -132,9 +132,12 @@ header .container{
 	transition: .25s;
 } 
   
-    
+header .logo{ 
+	display: grid;
+	place-items: center;
+}
 header .logo img{ 
-	width: 75px;
+	width: 175px; 
 }
  
 header .container nav{  
@@ -622,6 +625,9 @@ footer .top{
 	margin-bottom: 1rem;
 	position: relative;
 	z-index: 2;
+}
+footer .top img.flogo{
+	width: 70%;
 }
 footer .top > div{
 	width: 100%;  
