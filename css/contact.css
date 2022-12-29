@@ -1,4 +1,7 @@
- 
+:root{
+	--pri-color: #00776e;
+	--sec-color: #fdbc00;	
+} 
 
 section.banner{
   padding: 20vh 0 10vh; 
@@ -22,9 +25,10 @@ section.banner .caption{
   max-width: 400px;
   margin: 0 auto;
 }
-.caption h1{
+.banner .caption h1{
   font-size: 2.75rem;
   font-weight: 500;
+  line-height: 1;
 }
 section.banner .caption h1,
 section.banner .caption p{
@@ -37,6 +41,8 @@ section.reach{
   gap: 5rem; 
   position: relative;
   margin: 100px auto;
+  background: url(../imgz/bg/coins.png) no-repeat bottom left / contain;
+  background-size: 35%; 
 }
 section.reach > div{
   width: 100%;
@@ -44,17 +50,30 @@ section.reach > div{
   height: 100%;
 }
 section.reach .contentBx{
-  padding: 2.3em 2.2em
+  padding: 2.3em 2.2em;
+  padding-left: 9em;
+}
+.conta{
+  margin-top: 3rem;
+}
+.conta > div{
+  width: 100%;
+}
+.conta p{
+  font-size: 1.1rem;
 }
 
 .conta span i{
   margin-right: 7px;
-  color: #4455ff;
+  color: #4455ff; 
+  color: var(--pri-color);  
 }
 
 
 .form{
   padding: 20px;
+  padding-right: 9em;
+
 }
 .form form{
   padding: 5em 2.5em;
@@ -145,6 +164,7 @@ form .subm-btn{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top: 20px;
 }
 form .subm-btn:hover{ 
   color: #fff;
@@ -206,7 +226,7 @@ form .subm-btn:active {
   z-index: -1;
 }
 .ball.blue{
-  right: 0;
+  right: 8.5%;
   top: 21%;
 }
 .ball.yellow{

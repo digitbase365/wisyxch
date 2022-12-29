@@ -1,0 +1,13 @@
+:root{
+	--pri-color: #00776e;
+	--sec-color: #fdbc00;	
+} 
+.datapro h1, .datapro h2{
+	margin: 50px 0 20px;
+}
+.datapro h3{
+	margin-bottom: 15px;
+}
+.datapro p{
+	margin-bottom: 50px;
+}

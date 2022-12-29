@@ -1,6 +1,9 @@
-
+:root{
+	--pri-color: #00776e;
+	--sec-color: #fdbc00;	
+}
  
-/*MOBILE RULESET *************************************************/
+/*******MOBILE RULESET *************************************************/
 
 
 @media screen and (max-width: 499px){
@@ -26,9 +29,7 @@
   header{    
     background-color: #fff;
     padding: unset;  
-    height: 7vh;
-    padding-top: .69%; 
-
+    height: 7vh; 
   } 
   header .container{   
     width: 100vw;  
@@ -75,8 +76,7 @@
   header .container .logo{
     height: 100%; 
     top: 0;
-    margin-top: 0; 
-    padding-bottom: 3px;
+    margin-top: 0;  
     transition: .5s; 
     display: flex;
     align-items: center;
@@ -85,14 +85,15 @@
     width: 140px; 
     object-fit: contain;
   }
+  .scroll-up header{     
+    height: 5.5vh; 
+  } 
   .scroll-up header .container .logo img{ 
-    width: 65px;  
+    width: 130px;  
   }  
   .scroll-up header .container{   
-    align-items: center; 
-    /* padding-left: 3%; */
-    padding-bottom: 1%; 
-	  padding: 2px .5rem;  
+    align-items: center;  
+	  padding: 0px .5rem;  
   } 
   .scroll-up .hide-desktop.cac{
     margin-left: 3%;
@@ -116,7 +117,8 @@
     width: 27px;
     height: 2.5px; 
     background-color: #54bcff;
-    border-radius: 10px;
+    background-color: var(--pri-color);
+    border-radius: 30px;
     position: relative;
     transition: all .5s ease-in-out; 
   }
@@ -219,9 +221,16 @@
   padding: 0 .9rem;
 }
 #hero .hero .imgBx{  
-	width: 100%;
+	width: 100%; 
 	position: relative; 
-  overflow: hidden;
+  overflow-x: hidden; 
+	margin: 0; 
+
+}
+.coinx.btc{
+	top: -2.5%;
+	right: 1%;
+	z-index: 99;
 } 
 .coinx.lit{
 	top: 52%;
@@ -363,6 +372,9 @@ section#futures{
 /* END of HOW RULESET */
 
 /* REFER RULESET */
+#refer{ 
+	background-size: 75%;  
+}
 .refer{ 
 	flex-direction: column-reverse;
 	margin: auto; 
@@ -457,12 +469,14 @@ section.banner{
 }
  
 section.reach{
+  background: url(../imgz/bg/coins.png) no-repeat center left / contain;
+  background-size: 100%;
   flex-direction: column;
   gap: 5rem; 
   position: relative;
   margin: 70px auto 20px; 
   overflow: hidden;
-}
+} 
 section.reach .contentBx{ 
   padding: 0 1rem;
 }
