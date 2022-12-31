@@ -229,8 +229,7 @@
 }
 .coinx.btc{
 	top: -2.5%;
-	right: 1%;
-	z-index: 99;
+	right: 1%; 
 } 
 .coinx.lit{
 	top: 52%;
@@ -506,7 +505,36 @@ section.reach .contentBx .conta .item{
   left: -10%;
   bottom: 6%;
 }
-/* END of CONTACT PAGE RULESTE */
+/* END of CONTACT PAGE RULEST */
+
+/* RATES PAGE RULESET */
+section#rates.banner{  
+  background: url(../imgz/ratesbanner.png) no-repeat top right / cover; 
+}
+section.rates{
+  margin-bottom: 0;
+}
+.rates .form{ 
+  max-width: 96%;
+  margin: 0;
+  margin: auto;
+  padding: 50px 0; 
+}
+.rates .form form{
+  padding: 2.5rem 1rem;
+  z-index: 0; 
+}
+section.rates .form .input-container{ 
+  width: 46%;
+  float: left;  
+}
+.rates .form .couple{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+}
+
+/* RATES PAGE RULESET */
 
 } 
 

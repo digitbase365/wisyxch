@@ -1,0 +1,85 @@
+:root{
+	--pri-color: #00776e;
+	--sec-color: #fdbc00;	
+} 
+
+section.banner{
+  padding: 20vh 0 10vh; 
+  background: url(../imgz/ratesbanner.png) no-repeat center center;
+  background-size: 100%;
+  position: relative;
+  text-align: center;
+}
+section.banner::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .75; 
+}
+section.banner .caption{
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.banner .caption h1{
+  font-size: 2.75rem;
+  font-weight: 500;
+  line-height: 1;
+}
+section.banner .caption h1,
+section.banner .caption p{
+  color: #eef;
+  margin: 25px 0 20px;
+}
+section.rates{
+  max-width: 650px;
+  margin: 80px auto;
+  flex-direction: column;
+  align-items: center; 
+}
+section.rates .contentBx{
+  text-align: center;
+}
+section.rates .contentBx h2{
+  margin-bottom: 20px;
+}
+section .form{ 
+  max-width: 80%;
+  margin: 0;
+  margin: auto;
+  padding: 50px 0; 
+}
+section .form form{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  
+}
+.rates .form .couple{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rates .form form p{
+  margin-bottom: 40px;
+}
+.rates .form .input-container{ 
+  float: left; 
+  margin: 5px;
+}
+section.rates form .trdn{ 
+  width: fit-content;
+  margin: 20px auto 0;
+}
+section.rates form .subm-btn{
+  display: block;
+ margin: 25px auto;
+}
+
+
+/* Rates Rulesets */
+
+/* ENd of Rates Rulesets */

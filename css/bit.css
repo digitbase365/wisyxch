@@ -308,8 +308,7 @@ will-change: transform;
 
 .coinx.btc{
 	top: -10%;
-	right: 1%;
-	z-index: 99;
+	right: 1%; 
 }
 .coinx.lit{
 	top: 60%;
