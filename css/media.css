@@ -512,7 +512,12 @@ section#rates.banner{
   background: url(../imgz/ratesbanner.png) no-repeat top right / cover; 
 }
 section.rates{
-  margin-bottom: 0;
+  margin: 10px auto 0;
+  flex-direction: column;  
+  gap: 0; 
+}
+section.rates > div{
+  width: 100%; 
 }
 .rates .form{ 
   max-width: 96%;

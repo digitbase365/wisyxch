@@ -35,11 +35,12 @@ section.banner .caption p{
   color: #eef;
   margin: 25px 0 20px;
 }
-section.rates{
-  max-width: 650px;
-  margin: 80px auto;
-  flex-direction: column;
-  align-items: center; 
+section.rates{ 
+  margin: 80px auto;  
+  gap: 5rem; 
+}
+section.rates > div{
+  width: 50%; 
 }
 section.rates .contentBx{
   text-align: center;
@@ -47,11 +48,11 @@ section.rates .contentBx{
 section.rates .contentBx h2{
   margin-bottom: 20px;
 }
-section .form{ 
-  max-width: 80%;
+section .form{  
   margin: 0;
   margin: auto;
-  padding: 50px 0; 
+  padding: 50px 0;  
+  text-align: center;
 }
 section .form form{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
