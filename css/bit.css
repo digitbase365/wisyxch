@@ -488,6 +488,13 @@ section#futures{
 }
 /* END of SERVICES RULESET */
 
+/* FEATS RULESET */
+section#feats{ 
+	background: url(../imgz/bluebg.svg) no-repeat center bottom / cover;  
+	padding: 125px 0; 
+} 
+/* END of FEATS RULESET */
+
 
 /* HOW IT WORKS RULESET */
 .how .top{
