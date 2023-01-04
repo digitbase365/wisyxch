@@ -605,7 +605,10 @@ span.ripple{
 }
 .marquee-content .sun{
 	width: 65%;
-}  
+} 
+.marquee-content .braw{
+	height: 75%;
+} 
  
 
 /* END of PRESS RULESET */

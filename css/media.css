@@ -541,6 +541,21 @@ section.rates .form .input-container{
 
 /* RATES PAGE RULESET */
 
+/* FAQs Ruleset */
+#faq{
+  flex-direction: column; 
+}
+#faq .faq{ 
+  min-height: 80vh;
+}
+.faq h1{ 
+  margin-top: 0;
+}
+.faq .tab{ 
+  padding-bottom: 0;  
+}
+/* End of FAQs Ruleset */
+
 } 
 
 
