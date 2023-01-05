@@ -750,3 +750,61 @@ footer form i{
 
 } 
 /* END OF FOOTER SECTION */
+
+/* WHATSAPP CHAT ICON */
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 25px;
+  z-index: 600;
+  opacity: 0; 
+  visibility: hidden;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 1.1s ease-in-out;
+  -webkit-transform: translate3d(0, 200%, 0);
+  -ms-transform: translate3d(0, 200%, 0); 
+  transform: translate3d(0, 200%, 0);
+}
+.scroll-top a, .scroll-top a:visited {
+  display: block; 
+  height: 50px; 
+  width: 50px; 
+  line-height: 52px; 
+  text-align: center; 
+  border-radius: 7px; 
+  -webkit-box-shadow: 0 0 15px 6px rgba(0,0,0,0.1); 
+  -moz-box-shadow: 0 0 15px 6px rgba(0,0,0,0.1); 
+  box-shadow: 0 0 15px 6px rgba(0,0,0,0.1); 
+  -webkit-transition: all 0.3s ease-in-out; 
+  transition: all 0.3s ease-in-out; 
+  font-size:32px; 
+  color: #ffffff;
+}
+.scroll-top a:hover, .scroll-top a:focus {
+  color: #035e4a; 
+  background: #ffffff;
+}
+.scroll-top.scroll-visible {
+  opacity: 1; 
+  visibility: visible; 
+  -webkit-transform: translate3d(0, 0, 0); 
+  -ms-transform: translate3d(0, 0, 0); 
+  transform: translate3d(0, 0, 0);
+}
+
+.scroll-top  img{
+  width: 65%;
+}
+
+.scroll-top.chat{
+  bottom: 75px; 
+}
+.scroll-top.chat a{
+  background-color: limegreen;
+  border-radius: 50%;
+}
+.scroll-top.chat a:hover{
+  background-color: #fff;
+  color: limegreen;
+} 
+/* END OF WHATSAPP CHAT ICON */
