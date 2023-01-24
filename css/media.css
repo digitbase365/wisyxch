@@ -539,7 +539,15 @@ section.rates .form .input-container{
   justify-content: space-between;  
 }
 
-/* RATES PAGE RULESET */
+.wrapper{
+  padding: 0;
+}
+.wrapper form{
+  padding: 55px 20px 65px;
+  /* font-family: 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+/* END of RATES PAGE RULESET */
 
 /* FAQs Ruleset */
 #faq{

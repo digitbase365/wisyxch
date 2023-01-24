@@ -30,7 +30,7 @@ section.rates .contentBx{
 section.rates .contentBx h2{
   margin-bottom: 20px;
 }
-section .form{  
+/* section .form{  
   margin: 0;
   margin: auto;
   padding: 50px 0;  
@@ -40,27 +40,110 @@ section .form form{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
   
+} */
+ 
+ 
+
+/* Currency Convert Ruleset */
+.wrapper{
+  background-color: #fff;
+  width: 370px;
+  padding: 50px;
+  border-radius: 17px; 
+  text-align: center;
+
 }
-.rates .form .couple{ 
+#wrapper header{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.wrapper form{
+  margin: 40px 20px;
+  padding: 75px 50px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.wrapper form :where(input, select, button){
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+} 
+.wrapper form p{
+  font-size: 18px;
+  margin-bottom: 7px
+}
+.wrapper form input{
+  height: 36px;
+  padding: 0 10px;
+  font-size: 17px;
+  border: 2px solid #999; 
+  border: 1px solid #ffbb11; 
+  border: 2px solid #e0e0e0; 
+  border: 1.1px solid #d4d6d7; 
+}
+.wrapper form input:focus{
+  padding: 0 8px;
+  border: 2px solid #675afe;
+  border: 1.2px solid #ffbb11; 
+}
+.wrapper form .drop-list{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
-.rates .form form p{
-  margin-bottom: 40px;
+.wrapper .drop-list .select-box{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 115px;
+  height: 45px;
+  border: 1px solid #999; 
+  border-radius: 4px;
 }
-.rates .form .input-container{ 
-  float: left; 
-  margin: 5px;
+.wrapper .select-box select{
+  width: auto;
+  font-size: 16px;
+  margin: 0 -5px 0 5px;
+  background-color: transparent;
+  font-family: 'Source Sans Pro', sans-serif;
 }
-section.rates form .trdn{ 
-  width: fit-content;
-  margin: 20px auto 0;
+.wrapper .select-box select::-webkit-scrollbar{
+  width: 8px;
 }
-section.rates form .subm-btn{
-  display: block;
- margin: 25px auto;
+.wrapper .select-box select::-webkit-scrollbar-track{
+  background: #fff;
 }
+.wrapper .select-box select::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #fff;
+}
+
+.wrapper .select-box img{
+  max-width: 25px;
+}
+.drop-list .icon{
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.wrapper form .exchange-rate{
+  font-size: 17px;
+  margin: 40px 0;
+}
+.wrapper form button{
+  height: 52px;
+  color: #fff;
+  background-color: #675afe;
+  background-color: #ffbb11;
+  cursor: pointer;
+  font-size: 18px; 
+  font-family: 'Source Sans Pro', sans-serif;
+} 
 
 
 /* Rates Rulesets */

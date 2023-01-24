@@ -55,7 +55,7 @@
       <div class="animBx">
         <img src="./anim/86719-cryptocurrency.gif" alt="">
       </div> 
-        <div class="form">  
+        <!-- <div class="form">  
           <form action="">
             <h3 class="title">How the crypto calculator works:</h3>
             <p>Wisymore's live crypto calculator does the math so you don't have to, giving real rates in real time. Convert fiat to crypto, plan your investment, and buy. All with Wisymore Exchange. </p>
@@ -81,8 +81,45 @@
             <input type="submit" value="Trade Now" class="subm-btn">
             </div>
           </form>
-        </div>  
-    </section>
+        </div>   -->
+    
+        <div class="wrapper" id="wrapper"> 
+          <form action="#">
+            <div class="amount">
+          <h1>Convert FX Asset</h1>
+              <p>Enter Amount</p>
+              <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+              <div class="from">
+                <p>From</p>
+                <div class="select-box">   
+                  <img src="https://flagcdn.com/48x36/us.png" alt="Flag">    
+                  <!-- <img src="https://www.countryflags.io/us/flat/64.png" alt="Nigeria flag">     -->
+                  <select name="" id=""> 
+                  </select>
+                </div>
+              </div>
+              <div class="icon">
+                <i class="fa fa-exchange-alt"></i>
+              </div>
+              <div class="to">
+                <p>To</p>
+                <div class="select-box">   
+                  <img src="https://flagcdn.com/48x36/ng.png" alt="Flag">    
+                  <!-- <img src="https://flagsapi.com/NG/shiny/64.png" alt="Nigeria flag">     -->
+                  <select name="" id=""> 
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="exchange-rate">
+              Getting exchange rate...
+            </div>
+            <button>Get exchange rate</button>
+          </form>
+        </div> 
+      </section>
     <footer>
       <div class="top flx container">
         <div class="col1">
@@ -143,5 +180,7 @@
     </div>
     <!--Whatsapp Chat end--> 
   <script src="bit.js"></script>
+  <script src="./country-list.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
