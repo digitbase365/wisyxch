@@ -357,6 +357,9 @@ section#futures{
 /* END of SERVICES RULESET */
 
 /* HOW RULESET */
+.how .subheading{
+  width: 100%;
+}
 .how .bottom{ 
   min-height: 52vh;
   border-radius: 15px;
@@ -368,6 +371,13 @@ section#futures{
   position: absolute;
   z-index: -1;
 }
+
+/* MODAL VIDEO */
+.showvid .clip video{
+	max-width: 90%;
+}
+
+/* END of MODAL VIDEO */
 /* END of HOW RULESET */
 
 /* REFER RULESET */

@@ -147,6 +147,25 @@ inputs.forEach((input) => {
 
 // ******************End of Contact Form Script
 
+// MODAL VIDEO SCRIPT
+let vbtn = document.querySelector('.showvid .btn');
+let vclip = document.querySelector('.showvid .clip');
+let vclose = document.querySelector('.showvid .close');
+let vvideo = document.querySelector('.showvid video');
+vbtn.onclick = function(){
+  vbtn.classList.add("show");
+  vclip.classList.add("show");
+  vvideo.play();
+  vvideo.currentTime = 0;
+}
+vclose.onclick = function(){
+  vbtn.classList.remove("show");
+  vclip.classList.remove("show");
+  vvideo.pause();
+}
+
+// END of MODAL VIDEO SCRIPT
+
 
 // WHATSAPP CHAT BOT SCRIPT****************************************//
 window.onscroll = function() {myFunction()};

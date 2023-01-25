@@ -93,6 +93,9 @@
 .faq .tab:nth-child(5) label h2{
   background: linear-gradient(135deg, #fd6e6a, #ffc600);
 }
+.faq .tab:nth-child(6) label h2{
+  background: linear-gradient(135deg, #3c3537, #66eb5a);
+}
 .faq .tab label h3{
   position: relative;
   font-weight: 500;

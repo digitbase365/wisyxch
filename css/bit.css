@@ -133,7 +133,7 @@ header .container{
   animation: anim4 2s forwards 3.3s;  
   position: relative;     
 	margin: 0 auto;
-	padding: .55rem 2rem; 
+	padding: .75rem 2rem; 
 	transition: .25s;
 } 
   
@@ -159,12 +159,13 @@ nav a{
   padding: 0 4px;
   font-size: 1.15rem; 
   font-weight: 500;
+	letter-spacing: 2px;
   transition: .2s; 
   font-family: 'Source Sans Pro', sans-serif;
   color: #7d828c; 
   color: #2D728F; 
 	display: flex;
-	align-items: flex-end;
+	align-items: flex-end; 
 }
 nav a:hover{
   color: #042a3a; 
@@ -271,6 +272,7 @@ header .act{
 }  
 .hero .pitch .flag{ 
   color: #07e507;   
+  color: var(--sec-color);   
 }
 .hero p{
 	margin: 2em 0 3.69em;
@@ -546,6 +548,92 @@ span.ripple{
 	position: absolute;
 }
 
+
+/* MODAL VIDEO */
+.showvid{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+	border: 1px solid springgreen;
+
+}
+.showvid .btn{
+	position: relative;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+.showvid .btn .play{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	background-color: #f42e79;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 15px 25px #f42e7966;
+	transition: .5s;
+}
+.showvid .btn.show .play{
+	box-shadow: 0 0 0 150vh #f42e79;
+}
+.showvid .btn .play::before{
+	content: "";
+	position: absolute;
+	border: 25px solid #fff;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 0px solid transparent;
+	transform: translateX(5px);
+}
+.showvid .btn p{
+	font-weight: 500;
+	font-size: 1em;
+	color: #888;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+.showvid .clip{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10000;
+	transition: .5s;
+}
+.showvid .clip.show{
+	transition-delay: .5s;
+	transform: translate(-50%, -50%) scale(1);
+}
+.showvid .clip video{
+	max-width: 900px;
+	outline: none;
+	border: 10px solid #fff;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+
+}
+.showvid .clip .close{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff; 
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* END of MODAL VIDEO */
 /* END of HOW IT WORKS RULESET */
 
 /* AFFILIATE RULESET */
