@@ -554,7 +554,7 @@ span.ripple{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 70vh; 
+	min-height: 80vh; 
 	background: url(../imgz/vidimg.jpg) no-repeat center;
 	background-size: 80%;
 }
@@ -580,10 +580,10 @@ span.ripple{
 	box-shadow: 0 15px 25px #f42e7966;
 	transition: .5s;
 }
-.showvid .btn.show .play{
-	box-shadow: 0 0 0 150vh #f42e79;
+.showvid .btn.show .play{ 
 	position: relative;
 	box-shadow: 0 0 0 200vh #00776e;
+	box-shadow: 0 0 0 200vh #a8afff;
 	z-index: 999;
 }
 .showvid .btn .play::before{
