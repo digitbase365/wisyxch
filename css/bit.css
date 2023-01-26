@@ -582,6 +582,9 @@ span.ripple{
 }
 .showvid .btn.show .play{
 	box-shadow: 0 0 0 150vh #f42e79;
+	position: relative;
+	box-shadow: 0 0 0 200vh #00776e;
+	z-index: 999;
 }
 .showvid .btn .play::before{
 	content: "";
