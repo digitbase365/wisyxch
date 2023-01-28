@@ -501,16 +501,15 @@ section#feats{
 /* HOW IT WORKS RULESET */
 .how .top{
 	text-align: center;
-	max-width: 750px;
+	max-width: 650px;
 	margin: auto;
 }
 .how .bottom{ 
-	/* background: url(../imgz/vidimg.jpg) no-repeat center center / cover; */
+	background: url(../imgz/vidimg.jpg) no-repeat center center / cover;
 	position: relative;
 	border-radius: 20px;
-	max-width: 1020px;
-	margin: 5.5rem auto 7.5em; 
-	overflow: hidden;
+	max-width: 820px;
+	margin: 5em auto 12.5em;  
 }
 .how .bottom::before{
 	position: absolute;
@@ -537,8 +536,7 @@ section#feats{
 .play-btn i{
 	width: 62px;
 	height: 62px;
-	background-color: #adb9fe;
-	/* color: #44BBA4; */
+	background-color: #adb9fe; 
 	border-radius: 50%;
 	display: grid;
 	place-items: center;
@@ -554,12 +552,16 @@ span.ripple{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 80vh; 
-	background: url(../imgz/vidimg.jpg) no-repeat center;
-	background-size: 80%;
+	min-height: 80vh;  
+	position: relative;
+	z-index: 5;
 }
 .showvid .btn{
-	position: relative;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
@@ -578,12 +580,12 @@ span.ripple{
 	justify-content: center;
 	align-items: center;
 	box-shadow: 0 15px 25px #f42e7966;
+	box-shadow: 0 10px 20px #0bbbdf66;
 	transition: .5s;
 }
 .showvid .btn.show .play{ 
-	position: relative;
-	box-shadow: 0 0 0 200vh #00776e;
-	box-shadow: 0 0 0 200vh #a8afff;
+	position: relative; 
+	/* box-shadow: 0 0 0 200vh #a8afff; */
 	z-index: 999;
 }
 .showvid .btn .play::before{
@@ -603,39 +605,47 @@ span.ripple{
 	text-transform: uppercase;
 }
 .showvid .clip{
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%) scale(0);
-	width: 100%;
-	height: 100%;
+	transform: scale(0);
+	width: 120%;
+	height: 120%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	z-index: 10000;
+	z-index: 1;
 	transition: .5s;
+	box-shadow: rgba(42, 42, 101, 0.25) 0px 6px 12px -2px, rgba(99, 151, 247, 0.3) 0px 3px 7px -3px;
 }
 .showvid .clip.show{
 	transition-delay: .5s;
-	transform: translate(-50%, -50%) scale(1);
+	/* transform: translate(-50%, -50%) scale(1); */
+	transform: scale(1);
+	z-index: 10;
 }
 .showvid .clip video{
 	max-width: 900px;
 	outline: none;
-	border: 10px solid #fff;
-	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
-
+	border: 10px solid #fff; 
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25); 
 }
 .showvid .clip .close{
+	width: 40px;
+	height: 40px;
+	padding-left: .125%;
+	background-color: #fff;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+	border-radius: 50%;
+	display: grid;
+	place-content: center;
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	cursor: pointer;
-	font-weight: 500;
+	top: -25px;
+	right: -3%;
+	cursor: pointer; 
+	font-size: 1.2em;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #fff; 
-  font-family: 'Source Sans Pro', sans-serif;
+	color: var(--pri-color); 
+	color: red;  
 }
 /* END of MODAL VIDEO */
 /* END of HOW IT WORKS RULESET */

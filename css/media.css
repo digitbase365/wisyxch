@@ -373,10 +373,14 @@ section#futures{
 }
 
 /* MODAL VIDEO */
-.showvid .clip video{
-	max-width: 96.9%;
+.showvid{ 
+	min-height: 50vh;   
 }
+.showvid .clip video{
+	max-width: 106.9%;
+	border: 3px solid #fff;  
 
+} 
 /* END of MODAL VIDEO */
 /* END of HOW RULESET */
 
