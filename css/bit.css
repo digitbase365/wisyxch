@@ -567,7 +567,57 @@ span.ripple{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	gap: 10px;
+	gap: 10px;  
+	border-radius: 50%;
+}
+.showvid .btn::before, .showvid .btn::after{
+	content: "";
+	position: absolute;
+	width: 90%;
+	height: 90%; 
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+	box-shadow: 0px 2px 8px #fdbc0085;
+	box-shadow: 0px 2px 8px #fdbc00;
+	border-radius: 50%;  
+	animation: pulsat1 2.5s ease infinite;
+	z-index: -1;
+	animation-delay: .75s;
+
+}
+.showvid .btn::after{
+	width: 100%;
+	height: 100%; 
+	animation-delay: 0s;
+	animation: pulsate 2.5s ease infinite;
+
+}
+@keyframes pulsate {
+	0%{
+		width: 100%;
+		height: 100%;
+	}
+	50%{
+		width: 115%;
+		height: 115%;
+	}
+	0%{
+		width: 100%;
+		height: 100%;
+	}
+}
+@keyframes pulsat1 {
+	0%{
+		width: 100%;
+		height: 100%;
+	}
+	50%{
+		width: 120%;
+		height: 120%;
+	}
+	0%{
+		width: 100%;
+		height: 100%;
+	}
 }
 .showvid .btn .play{
 	position: relative;
@@ -578,11 +628,11 @@ span.ripple{
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	box-shadow: 0 15px 25px #f42e7966;
-	box-shadow: 0 10px 20px #0bbbdf66;
+	align-items: center; 
+	/* box-shadow: 0 10px 20px #0bbbdf66; */
 	transition: .5s;
 }
+
 .showvid .btn.show .play{ 
 	position: relative; 
 	/* box-shadow: 0 0 0 200vh #a8afff; */
