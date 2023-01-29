@@ -569,6 +569,7 @@ span.ripple{
 	flex-direction: column;
 	gap: 10px;  
 	border-radius: 50%;
+	user-select: none;
 }
 .showvid .btn::before, .showvid .btn::after{
 	content: "";
@@ -578,15 +579,17 @@ span.ripple{
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 	box-shadow: 0px 2px 8px #fdbc0085;
 	box-shadow: 0px 2px 8px #fdbc00;
+	box-shadow: 0px 2px 8px #d2ebee;
 	border-radius: 50%;  
-	animation: pulsat1 2.5s ease infinite;
+	animation: pulsat1 3s ease infinite;
 	z-index: -1;
-	animation-delay: .75s;
-
+	animation-delay: 1s;
+	user-select: none;
 }
 .showvid .btn::after{
 	width: 100%;
 	height: 100%; 
+	box-shadow: 0px 2px 8px #cff3f0;
 	animation-delay: 0s;
 	animation: pulsate 2.5s ease infinite;
 
@@ -622,20 +625,17 @@ span.ripple{
 .showvid .btn .play{
 	position: relative;
 	width: 80px;
-	height: 80px;
-	background-color: #f42e79;
+	height: 80px; 
 	background-color: var(--sec-color);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
-	align-items: center; 
-	/* box-shadow: 0 10px 20px #0bbbdf66; */
+	align-items: center;  
 	transition: .5s;
 }
 
 .showvid .btn.show .play{ 
-	position: relative; 
-	/* box-shadow: 0 0 0 200vh #a8afff; */
+	position: relative;  
 	z-index: 999;
 }
 .showvid .btn .play::before{
@@ -646,6 +646,9 @@ span.ripple{
 	border-bottom: 15px solid transparent;
 	border-right: 0px solid transparent;
 	transform: translateX(5px);
+}
+.showvid .btn .play:hover{  
+	background: #ebb101;
 }
 .showvid .btn p{
 	font-weight: 500;
