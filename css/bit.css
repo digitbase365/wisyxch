@@ -579,7 +579,8 @@ span.ripple{
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 	box-shadow: 0px 2px 8px #fdbc0085;
 	box-shadow: 0px 2px 8px #fdbc00;
-	box-shadow: 0px 2px 8px #d2ebee;
+	box-shadow: 0px 2px 8px #dcf4f6;
+	border: 2px double rgb(194, 238, 236); 
 	border-radius: 50%;  
 	animation: pulsat1 3s ease infinite;
 	z-index: -1;
@@ -632,11 +633,13 @@ span.ripple{
 	justify-content: center;
 	align-items: center;  
 	transition: .5s;
+	user-select: none;
 }
 
 .showvid .btn.show .play{ 
 	position: relative;  
 	z-index: 999;
+	user-select: none;
 }
 .showvid .btn .play::before{
 	content: "";
@@ -646,9 +649,11 @@ span.ripple{
 	border-bottom: 15px solid transparent;
 	border-right: 0px solid transparent;
 	transform: translateX(5px);
+	user-select: none;
 }
 .showvid .btn .play:hover{  
 	background: #ebb101;
+	user-select: none;
 }
 .showvid .btn p{
 	font-weight: 500;
